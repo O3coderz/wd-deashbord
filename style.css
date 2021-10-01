@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+     margin: 0;
+     padding: 0;
+     background: #E5E8EF;
+     font-family: 'Cairo', sans-serif;
+     
+}
+ 
+ 
+.wrapper {
+     display: grid;
+     grid-template-columns: 270px auto 250px;
+     margin-right: 20px;
+}
+ 
+ 
+ 
+.menu-bar {
+     grid-column: 2 / span 2;
+     grid-row: 1;
+     width: 100%;
+     height: 50px;
+     background: #FFFFFF;
+     box-shadow: 2px 2px 10px rgb(170, 168, 168);
+}
+ 
+ 
+/*This is a side bar*/
+  
+ 
+.sidde-bar {
+     grid-column: 1;
+     grid-row: 1 / span 2;
+     background: #FFFFFF;
+     box-shadow: 2px 2px 10px rgb(170, 168, 168);
+}
+ 
+/*This is NU Sphere Logo & Img part*/
+ 
+.NU_sphere_logo {
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: 150px 30px;
+     align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.NU_sphere_logo a {
+     color: grey;
+     text-decoration: none;
+ }
+
+
+.NU_sphere_logo img {
+     width: 150px;
+     height: 75px;
+}
+
+/*This is a side bar*/
+ 
+ 
+.unorder-list {
+     margin-left: 20px;
+     padding: 20px;
+}
+ 
+.unorder-list ul {
+     list-style: none;
+}
+ 
+.unorder-list ul li a {
+     display: grid;
+     grid-template-columns: 30px auto;
+     align-items: center;
+     
+     margin: 5px;
+     width: 150px;
+     font-size: 20px;
+     color: gray;
+     text-decoration: none;
+     padding: 5px 15px;
+     letter-spacing: .5px;
+}
+ 
+/*This is unorder-list ul li a hover css*/
+ 
+.unorder-list ul li a:hover {
+     background-image: linear-gradient(to right, rgba(228, 5, 5, 0.836), rgba(153, 13, 106, 0.836) );
+     color: white;
+     border-radius: 4px;
+     transition: .3s;
+     box-shadow: 2px 2px 5px black;
+}
+ 
+ 
+/* sidebar icon*/
+ 
+ 
+i.fas.fa-wallet {
+     color: rebeccapurple;
+}
+ 
+i.fas.fa-atlas {
+    color: #1c1515de;
+}
+ 
+i.fas.fa-user {
+    color: coral;
+}
+ 
+i.fas.fa-user-tie {
+    color: darkgoldenrod;
+}
+ 
+i.fas.fa-box {
+    color: #32c928c4;
+}
+ 
+i.fas.fa-lightbulb {
+    color: #f40c0cd4;
+}
+ 
+i.fas.fa-hands-helping {
+    color: indianred;
+}
+ 
+.unorder-list ul li a .icon:hover {
+    color: white;
+}
+ 
+/*this is menu-item css*/
+ 
+ 
+.menu-items {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 330px 25px 25px;
+    float: right;
+    align-items: center;
+    width: 400px;
+    padding-left: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: grey;
+    margin-top: 7px;
+}
+ 
+ 
+ 
+ 
+/*this is search icon*/
+ 
+i.sea-input.fas.fa-search {
+    font-size: 16px;
+}
+ 
+ 
+/* this is menu bar Search Item*/
+ 
+input.sea-input {
+     font-size: 16px;
+     padding: 1px;
+     outline: none;
+     border: none;
+}
+.search-input {
+     display: grid;
+     grid-gap: 6px;
+     grid-template-columns: 14px 290px;
+     box-shadow: 2px 2px 2px #e2e1e1;
+     border-radius: 10px;
+     padding: 5px 7px;
+     align-items: center;
+}
+ 
+.container {
+     margin: 30px 40px 40px 40px;
+     margin-bottom: 0;
+     background: #E5E8EF;
+}
+ 
+ 
+ 
+ 
+.content-search {
+     display: grid;
+     grid-gap: 0px;
+     grid-template-columns: 25px auto 25px;
+     align-items: center;
+     font-size: 18px;
+     color: gray;
+     padding: 8px;
+     box-shadow: 2px 2px 5px grey;
+     height: 25px;
+     margin: 17px;
+     background: #FFFFFF;
+}
+ 
+ 
+/*This is seainput search icon placeholder search project here*/
+ 
+ 
+i.seainput.fas.fa-search {
+     text-align: center;
+}
+ 
+input.seainput {
+     outline: none;
+     border: none;
+     font-size: 15px;
+     letter-spacing: 1px;
+     color: grey;
+     
+}
+ 
+i.seainput.fas.fa-chevron-circle-right {
+     text-align: center;
+     color: rgba(153, 13, 106, 0.836);
+ 
+}
+ 
+i.seainput.fas.fa-chevron-circle-right:hover{
+     color: indianred;
+}
+
+
+/*This is a new-ppular div*/
+ 
+.new-popular {
+     display: grid;
+     grid-gap: 30px;
+     grid-template-rows: 250px auto;
+}
+ 
+.see-all {
+     display: grid;
+     grid-template-columns: auto 100px;
+     padding: 5px;
+     margin: 12px;
+     align-items: center;
+     color: gray;
+}
+
+.see-all a {
+     text-decoration: none;
+     background-image: linear-gradient(to right, rgba(153, 13, 106, 0.986), rgba(228, 5, 5, 0.952) );
+     color: whitesmoke;
+     text-align: center;
+     font-size: 20px;
+     letter-spacing: .5px;
+     box-shadow: 2px 2px 4px gray;
+     border-radius: 20px;
+     font-weight: 600;
+}
+ 
+.see-all a:hover {
+     background-image: linear-gradient(to right, rgba(228, 5, 5, 0.87), rgba(153, 13, 106, 0.856) );
+ 
+     color: silver;
+     transition: .4s;
+}
+ 
+/*This all-projects section*/
+ 
+.all-projects {
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: auto auto auto auto auto;
+     margin: 16px;
+}
+ 
+.project {
+     display: grid;
+     grid-template-rows: 130px auto auto;
+     line-height: 25px;
+}
+ 
+.project a.project-icon {
+     background: #15BB9A;
+     color: rgb(211, 211, 211);
+     font-size: 60px;
+     text-align: center;
+     padding-top: 30px;
+}
+ 
+ 
+ 
+.project.Transport a.project-icon {
+     background: #2DCC70;
+}
+ 
+.project.Chair a.project-icon {
+     background: #3598DB;
+}
+ 
+.project.E-Commerce a.project-icon {
+     background: #9B58B5;
+}
+ 
+.project.Manager a.project-icon {
+    background: #9DACAD;
+}
+ 
+ 
+.project span{
+    color: grey;
+    font-size: 17px;
+    font-weight: 600;
+    width: 130px;
+}
+ 
+.project a.finder {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+    width: 50px;
+}
+ 
+.project a.finder:hover {
+    color: rgb(7, 166, 214);
+    text-decoration: underline;
+    transition: .7s;
+ 
+}
+ 
+ 
+/*this is a featured section*/
+ 
+ 
+.featured {
+    margin-top: 40px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgb(170, 168, 168);
+    border-radius: 5px;
+    color: grey;
+     
+}
+ 
+ 
+.featured h2 {
+    text-align: center;
+     
+}
+ 
+ 
+.feature-box {
+    padding-top: 20px;
+    align-items: center;
+    margin: auto;
+    margin-left: 27px;
+ 
+}
+
+
+.subfatured {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    line-height: 10px;
+}
+ 
+.subfatured a.fearture-icon {
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    font-weight: bold;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 4px;
+    width: 180px;
+    height: 60px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*subfeatured a.feature-icon color */
+
+
+i.feature-icon.fas.fa-adjust {
+    color: darkolivegreen;
+}
+
+i.feature-icon.fas.fa-address-card {
+    color: mediumvioletred;
+}
+
+i.feature-icon.fas.fa-archive {
+    color: cadetblue;
+}
+
+i.feature-icon.fas.fa-bath {
+    color: maroon;
+}
+
+
+/*subfeatured span */
+
+
+.subfatured span{
+    color: grey;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*subfeatured a.finder*/
+
+
+.subfatured a.Finder {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.subfatured a.Finder:hover{
+    color: rgb(7, 166, 214);
+    text-decoration: underline;
+    transition: .7s;
+}
+ 
+/*This is a bottom-see section*/
+ 
+.bottom-see a {
+    display: block;
+    width: 110px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(153, 13, 106, 0.986), rgba(228, 5, 5, 0.952) );
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: .5px;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+     
+}
+ 
+.bottom-see a:hover {
+    background-image: linear-gradient(to right, rgba(228, 5, 5, 0.87), rgba(153, 13, 106, 0.856) );
+    color: silver;
+    transition: .4s;
+}
+ 
+ 
+ 
